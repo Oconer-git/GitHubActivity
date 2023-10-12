@@ -89,29 +89,28 @@ The API responses follow a JSON format and may include the following structures:
 
 
 ## Usage
-Provide codeexamples or instructions on how to use your API.
 
-### Insert Data
+***Insert Data***
 To insert data into the database, make a POST request to the following endpoint:
     ```POST http://localhost/api/public/postName```
 
 - Provide the required JSON payload in the request body.
 
 
-### Get Data
+***Get Data***
 To retrieve a list of data from the database, make a GET request to the following endpoint:
     ```GET http://localhost/api/public/getName```
 
 - Provide the required JSON payload in the request body.
 
 
-### Update Data
+***Update Data***
 To update data in the database, make a PUT request to the following endpoint, specifying the ID of the record to be updated:
     ```PUT http://localhost/api/public/updateName/{id}```
 
 - Provide the required JSON payload in the request body.
-
-### Delete Data
+  
+***Delete Data***
 To delete data from the database, make a DELETE request to the following endpoint, specifying the ID of the record to be deleted:
     ```DELETE http://localhost/api/public/delName/{id}```
 
